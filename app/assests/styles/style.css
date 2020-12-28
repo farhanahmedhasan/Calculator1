@@ -6,4 +6,39 @@
 
 body {
   font-family: "Ubuntu", sans-serif;
+  background-color: black;
+}
+
+/*Design For The main Container*/
+#container {
+  background-image: url(/app/assests/img/bgImg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 320px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*Responsive Design*/
+@media (min-width: 576px) and (max-width: 800px) {
+  #container {
+    width: 600px;
+    height: 400px;
+  }
+}
+@media (min-width: 801px) and (max-width: 1200px) {
+  #container {
+    width: 800px;
+    height: 450px;
+  }
+}
+@media (min-width: 1200px) {
+  #container {
+    height: 550px;
+    width: 1200px;
+  }
 }
