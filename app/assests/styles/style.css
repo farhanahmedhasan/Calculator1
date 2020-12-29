@@ -11,7 +11,7 @@ body {
 
 /*Design For The main Container*/
 #container {
-  background-image: url(/app/assests/img/bgImg.jpg);
+  background: url(../img/bgImg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
